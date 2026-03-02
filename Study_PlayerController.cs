@@ -4,8 +4,8 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
 	//Public variables
-	public float jumpForce = 500.0f; //Base force for a jump
-	public float speed = 10.0f; //Speed of the player
+	public float jumpForce = 500.0f; //Base force for a jump  // 점프하는 힘 (이게 높을수록 점프를 더 높게함)
+	public float speed = 10.0f; //Speed of the player         // 달리는 속도 (숫자가 높을수록 속도가 점점 빨라짐)
 
 	//MonoBehaviour object components
 	Rigidbody2D rb;
@@ -73,4 +73,4 @@ public class PlayerController : MonoBehaviour {
 		}		
 	}
 	*/
-} 이거지?
+} 
